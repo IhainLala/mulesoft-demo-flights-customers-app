@@ -9,17 +9,17 @@ The mule app will be deployed (or re-deployed) on push.
 
 ## Table of contents
 
- - [Getting started](#)
- - [Step 1 : configure the pom.xml by adding cloudHubDeployment configuration](#comment-fonctionne-git)
- - [Step 2 : write the workflow to build and deploy](#sécurité)
- - [Conclusion](#)
- - [Contribution](#)
+ - [Getting started](#getting-started)  
+ - [Step 1 : configure the pom.xml by adding cloudHubDeployment configuration](#step-one)
+ - [Step 2 : write the workflow to build and deploy](#step-two)
+ - [Conclusion](#conclusion)
+ - [Contribution](#contribution)
 
 
 
-## Getting started
+## Getting started <a name="getting-started"></a>
 Make sure you have a GitHub or GitLab account before you start. If not, create one.  
-  - **Prerequisites**  
+  - **Prerequisites** :ok_hand:  
 Create a new repository without any files (no read.me no .gitignore)  
 Execute the git commands to make your mule project available on your git repository.  
 ```
@@ -32,7 +32,7 @@ git push -u origin main
 ```
 Refresh to see the updates.
 
-## Step 1 : configure the pom.xml
+## Step 1 : configure the pom.xml <a name="step-one"></a>
 Return to your workspace to Anypoint Studio and add a sub-element named <configuration> if you don't have one.  
 Here, you should specify the different properties you need to set up the deployment on CloudHub.  
   - Url : https://anypoint.mulesoft.com  
@@ -47,12 +47,12 @@ Here, you should specify the different properties you need to set up the deploym
   - Workers: numbers of workers you need  
   - ObjectStorev2 : by default, “true”  
 
-## Step 2 : write the workflow to build and deploy
+## Step 2 : write the workflow to build and deploy <a name="step-two"></a>
 Use one of the templates corresponding to your platform.  
   
-## Conclusion
+## Conclusion <a name="conclusion"></a>
 
-## Contribution  
+## Contribution  <a name="contribution"></a>
 If you have some suggestions, please send an email to : 
   
-Thank you for reading and have fun with this wonderful word of code versioning control and continuous integration.   
+Thank you for reading and have fun with this wonderful word of code versioning control and continuous integration. :smile:    
