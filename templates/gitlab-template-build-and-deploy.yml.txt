@@ -1,0 +1,11 @@
+# This workflow is a template to build a MuleSoft project and deploy to CloudHub
+image: maven:3.8.2-jdk-8
+
+stages:
+    - build and deploy
+
+deploy:
+    # mwn deploy will build and deploy on CloudHub using your MULESOFT_USERNAME and MULESOFT_PASSWORD
+    stage: build and deploy
+    script:
+        - mvn deploy -DmuleDeploy -Danypoint.username=$MULESOFT_USERNAME -Danypoint.password=$MULESOFT_PASSWORD -Dmaven.test.skip=true
