@@ -3,8 +3,7 @@
 ## About the project
 
 We write this tutorial to help junior developers to learn how to integrate their mule projects with their code versioning 
-platform (using GitHub or GitLab).  
-Here, you can find the steps you should follow to build and deploy the mule app to CloudHub.  
+platform (using GitHub or GitLab). Here, you can find the steps you should follow to build and deploy the mule app to CloudHub.  
 The mule app will be deployed (or re-deployed) on push.
 
 ## Table of contents
