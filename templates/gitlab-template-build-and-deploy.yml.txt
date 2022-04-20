@@ -1,4 +1,4 @@
-# This workflow is a template to build a MuleSoft project and deploy to CloudHub
+# This workflow is a template to build a MuleSoft project and deploy to CloudHub - GitLab CI/CD Pipelines
 image: maven:3.8.2-jdk-8
 
 stages:
