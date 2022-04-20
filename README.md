@@ -47,11 +47,17 @@ Here, you should specify the different properties you need to set up the deploym
   - Workers: numbers of workers you need  
   - ObjectStorev2 : by default, “true”  
 
-## Step 2 : write the workflow to build and deploy <a name="step-two"></a>
-Use one of the templates corresponding to your platform.  
-  
-## Conclusion <a name="conclusion"></a>
+ ![example for pom.xml](/images/pomfile.PNG)  
+ 
+## Step 2 : write the workflow to build and deploy on CloudHub <a name="step-two"></a>
+Use one of these templates corresponding to your platform.  
+If you are in GitHub, use the template named :  
+> [github-template-build-and-deploy-on-push_yml.txt](templates/github-template-build-and-deploy-on-push_yml.txt)  
 
+And if you are in GitLab, use the template named :  
+> [gitlab-template-build-and-deploy.yml.txt](templates/gitlab-template-build-and-deploy.yml.txt)  
+## Conclusion <a name="conclusion"></a>
+ 
 ## Contribution  <a name="contribution"></a>
 If you have some suggestions, please send an email to : 
   
