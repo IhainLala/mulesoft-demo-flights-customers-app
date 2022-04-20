@@ -57,6 +57,6 @@ And if you are in GitLab, use the template named :
 ## Conclusion <a name="conclusion"></a>
  
 ## Contribution  <a name="contribution"></a>
-If you have some suggestions, please send an email to : 
+If you have any suggestions, please send an email to : lalaihaina@gmail.com
   
 Thank you for reading and have fun with this wonderful word of code versioning control and continuous integration. :smile:    
