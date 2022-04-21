@@ -10,7 +10,6 @@ platform (using GitHub or GitLab). Here, you can find the steps you should follo
  - [Getting started](#getting-started)  
  - [Step 1 : configure the pom.xml by adding cloudHubDeployment configuration](#step-one)
  - [Step 2 : write the workflow to build and deploy](#step-two)
- - [Conclusion](#conclusion)
  - [Contribution](#contribution)
 
 
@@ -54,9 +53,9 @@ If you are in GitHub, use the template named :
 
 And if you are in GitLab, use the template named :  
 > [gitlab-template-build-and-deploy.yml.txt](templates/gitlab-template-build-and-deploy.yml.txt)  
-## Conclusion <a name="conclusion"></a>
+
  
 ## Contribution  <a name="contribution"></a>
-If you have any suggestions, please send an email to : lalaihaina@gmail.com
+If you have any suggestions, please send an email to : lalarindriana.ihainjanahary@devoteam.com
   
 Thank you for reading and have fun with this wonderful word of code versioning control and continuous integration. :smile:    
