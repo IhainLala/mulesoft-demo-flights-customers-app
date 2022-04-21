@@ -37,7 +37,7 @@ Here, you should specify the different properties you need to set up the deploym
   - Username : **MULESOFT_USERNAME**, your mulesoft username  
   - Password: **MULESOFT_PASSWORD**, your mulesoft password  
   - Application Name: name_of_your_app, it ***should be unique***   
-    Tips: use your firstname  
+    Tip: use your firstname  
   - Environment : “Sandbox”  
   - workerType: by default, “MICRO”  
   - Region: your region, ex:  “us-east-2”  
